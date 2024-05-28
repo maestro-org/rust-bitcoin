@@ -210,7 +210,7 @@ pub struct Block {
     pub txdata: Vec<Transaction>
 }
 
-impl_consensus_encoding!(Block, header, txdata);
+// impl_consensus_encoding!(Block, header, txdata);
 
 impl Block {
     /// Returns the block hash.
